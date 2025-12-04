@@ -17,7 +17,7 @@ public class Tc_001_Verify_User_Is_Able_to_Add__Address_or_Not_Test extends Base
 		webDriverUtility.javascriptScrollIntoView(driver, homePage.getAddressesBtn());
 		homePage.getAddressesBtn().click();
 		
-		System.out.println("****************************************");
+		System.out.println("**************************************");
 
 		Addresses_Page addressesPage = new Addresses_Page(driver);
 		addressesPage.getAddNewBtn().click();
